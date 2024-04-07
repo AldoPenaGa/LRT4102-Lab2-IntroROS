@@ -55,6 +55,7 @@ The problems were divided into three sections: basic, medium and advanced.
 
 ### Contributors
 
-| Name                          | ID   | Github                               |
-|-------------------------------|--------|--------------------------------------|
-| Aldo Oziel Peña Gamboa        | 169382 | https://github.com/AldoPenaGa        |
+| Name                          | Github                               |
+|-------------------------------|--------------------------------------|
+| Aldo Oziel Peña Gamboa        | https://github.com/AldoPenaGa        |
+| Joan Carlos Monfil Huitle     | https://github.com/JoanCarlosMonfilHuitle  |
