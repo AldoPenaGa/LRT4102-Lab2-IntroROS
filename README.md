@@ -54,9 +54,11 @@ The basic codes can be found in a ROS package called `practicas_lab` inside the 
 In this very specific scenario, our publisher node called `chatter` will print a `string` message that says 'hello world' and the number of the salutation. In the mean time, our subscriber, called `listener` will print 'I heard' + the message recieved, so we know that it was subscribed and listening. This are the basics at ROS communication.
 
 **Medium**
-The medium codes can be found in two different ROS packages called `square_turtlesim` and `teleopTurtle`. In which both have launch files, so they can be initiated with `roslaunch` command. The `square_turtlesim` package will draw a square and an equilateral triangle too and the `teleopTurtle` will let the user control the turtlesim_node with the keyboard, nevertheless, it is important to mention that this last one does not follow the common conventions for naming a package and can be conflictive so, it is recommended to proceed with caution.
+
+The medium codes can be found in two different ROS packages called `square_turtlesim` and `teleopTurtle` inside the folder named `Medium`. In which both have launch files, so they can be initiated with `roslaunch` command. The `square_turtlesim` package will draw a square and an equilateral triangle too and the `teleopTurtle` will let the user control the turtlesim_node with the keyboard, nevertheless, it is important to mention that this last one does not follow the common conventions for naming a package and can be conflictive so, it is recommended to proceed with caution.
 
 **Advanced**
+
 Finally, the advanced codes can be found in a ROS package called `pid_control_turtlesim` inside the folder named `Advanced`, here a P, PD and PID controllers for the turtlesim node can be found. These codes were a little bit difficult to develop, even though they do the labor intended, they may not reach high expectatives. Although, there will be future updates to the codes so they have a better performance. 
 
 ### Conclusion
