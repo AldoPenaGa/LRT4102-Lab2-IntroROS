@@ -1,5 +1,5 @@
 <p align="center">
-  <h2 align="center">Intro to ROS</h2>
+  <h2 align="center">Introduction to Robot Operating System (ROS)</h2>
 
   <p align="justify">
   This is the second laboratory report for the course titled Robotic Systems Design (LRT4102). This report will serve as an introduction to the Robot Operating System (ROS) environment.
