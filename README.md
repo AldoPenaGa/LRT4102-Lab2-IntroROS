@@ -21,6 +21,9 @@
 ### Introduction
 
 **ROS**
+Robotic Operating System (ROS) ROS is an open-source operating system for robots that simplifies the development of robotic applications by managing hardware, implementing control algorithms, and facilitating communication between software components. ROS uses “Turtlesim,” an integrated simulation tool that displays a turtle-shaped robot. This robot is moved using Python codes, manipulated through a control, assigning positions to recreate required figures and generate trajectories towards points of interest. The connection between PID control and ROS lies in the management of “Turtlesim,” where PID fundamentals are applied to guide the Bot to a desired position and correct values for its direction, such as position, trajectory, and angle, thus utilizing PID control.
+
+Meanwhile, PID control is a method that adjusts the output based on the error between a reference signal and a feedback signal. It uses proportional, integral, and derivative components—hence the acronym PID—to achieve precise and stable responses in dynamic systems. The proportional part (P) adjusts the system’s output, typically correcting the current error, regardless of its size. The integral part (I) literally integrates errors over a certain period and applies a correction proportional to the average of the integrated errors, addressing the steady-state error. Lastly, the derivative part (D) predicts potential errors and applies corrections based on changes in the system, correcting possible oscillations and improving stability.
 
 **Control of Systems**
 
