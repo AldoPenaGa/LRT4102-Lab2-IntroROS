@@ -19,13 +19,15 @@
 <div align= "justify">
 
 ### Introduction
+Welcome to the laboratory report for "Robotic Systems Design" (LRT4102), where we will look at the fundamentals of the Robot Operating System (ROS). This study, created by Aldo Peña and Joan Monfil, students of Robotics and Telecommunications Engineering at Universidad de las Américas Puebla (UDLAP), provides an overview of ROS's capabilities for hardware management, control algorithm implementation, and software communication. Turtlesim and PID control tools are used to study the complicated process of steering a robotic turtle to its chosen destination with precision and speed.
 
 **ROS**
+
 Robotic Operating System (ROS) ROS is an open-source operating system for robots that simplifies the development of robotic applications by managing hardware, implementing control algorithms, and facilitating communication between software components. ROS uses “Turtlesim,” an integrated simulation tool that displays a turtle-shaped robot. This robot is moved using Python codes, manipulated through a control, assigning positions to recreate required figures and generate trajectories towards points of interest. The connection between PID control and ROS lies in the management of “Turtlesim,” where PID fundamentals are applied to guide the Bot to a desired position and correct values for its direction, such as position, trajectory, and angle, thus utilizing PID control.
 
-Meanwhile, PID control is a method that adjusts the output based on the error between a reference signal and a feedback signal. It uses proportional, integral, and derivative components—hence the acronym PID—to achieve precise and stable responses in dynamic systems. The proportional part (P) adjusts the system’s output, typically correcting the current error, regardless of its size. The integral part (I) literally integrates errors over a certain period and applies a correction proportional to the average of the integrated errors, addressing the steady-state error. Lastly, the derivative part (D) predicts potential errors and applies corrections based on changes in the system, correcting possible oscillations and improving stability.
-
 **Control of Systems**
+
+Meanwhile, PID control is a method that adjusts the output based on the error between a reference signal and a feedback signal. It uses proportional, integral, and derivative components—hence the acronym PID—to achieve precise and stable responses in dynamic systems. The proportional part (P) adjusts the system’s output, typically correcting the current error, regardless of its size. The integral part (I) literally integrates errors over a certain period and applies a correction proportional to the average of the integrated errors, addressing the steady-state error. Lastly, the derivative part (D) predicts potential errors and applies corrections based on changes in the system, correcting possible oscillations and improving stability.
 
 ### Problems
 The problems were divided into three sections: basic, medium and advanced.
@@ -65,6 +67,8 @@ The medium codes can be found in two different ROS packages called `square_turtl
 Finally, the advanced codes can be found in a ROS package called `pid_control_turtlesim` inside the folder named `Advanced`, here a P, PD and PID controllers for the turtlesim node can be found. These codes were a little bit difficult to develop, even though they do the labor intended, they may not reach high expectatives. Although, there will be future updates to the codes so they have a better performance. 
 
 ### Conclusion
+
+To summarize, this laboratory report has provided an extensive review of ROS, from the basics of developing a ROS package to some advanced implementation of a PID controller. The journey through the challenges and codes has not only strengthened our comprehension of ROS communication system, but has also demonstrated the integration of theory and practice. As we conclude, we consider the impact of ROS and PID control on the future of robotic system design, leaving us encouraged and equipped with the tools to innovate in the field of robotics.
 
 ### Contributors
 
